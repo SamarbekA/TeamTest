@@ -22,4 +22,12 @@ public class FirstClass {
     public void setSurName(String surName) {
         this.surName = surName;
     }
+
+    @Override
+    public String toString() {
+        return "FirstClass{" +
+                "name='" + name + '\'' +
+                ", surName='" + surName + '\'' +
+                '}';
+    }
 }
