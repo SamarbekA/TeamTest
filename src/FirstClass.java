@@ -11,6 +11,10 @@ public class FirstClass {
         return name;
     }
 
+    public FirstClass(String name) {
+        this.name = name;
+    }
+
     public void setName(String name) {
         this.name = name;
     }
@@ -30,4 +34,5 @@ public class FirstClass {
                 ", surName='" + surName + '\'' +
                 '}';
     }
+
 }
