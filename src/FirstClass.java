@@ -1,7 +1,8 @@
 public class FirstClass {
     private String name;
     private String surName;
-
+    private int age;
+    private String mem;
     public FirstClass(String name, String surName) {
         this.name = name;
         this.surName = surName;
